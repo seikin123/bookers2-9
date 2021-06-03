@@ -31,6 +31,9 @@
 	<div class="row">
   	<td><%= link_to " ", edit_user_path(user), class:"btn btn-outline-secondary btn-block fas fa-user-cog" %></td>
 	</div>
+	<div>
+			<%= render 'chats/chat_button' %> <%# チャットボタン  %>
+	</div>
 <%# 編集ボタンについて %>
 <%# <% if user.id == current_user.id %> 
 <%# <% else %>
